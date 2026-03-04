@@ -3,7 +3,7 @@
 # Bishr Omer A. Adam
 ### MSc Researcher · Northwestern Polytechnical University, Xi'an, China
 
-[![Email](https://img.shields.io/badge/bishromer@outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto: bishromer@mail.nwpu.edu.cn)
+[![Email](https://img.shields.io/badge/bishromer@mail.nwpu.edu.cn-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:bishromer@mail.nwpu.edu.cn)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0711--6685-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0711-6685)
 [![Sensors Paper](https://img.shields.io/badge/DOI-10.3390%2Fs26031002-blue?style=flat-square)](https://doi.org/10.3390/s26031002)
 
