@@ -1,6 +1,6 @@
 <div align="center">
 
-# Bishr Omer Abdelrahman Adam
+# Bishr Omer A. Adam
 ### MSc Researcher · Northwestern Polytechnical University, Xi'an, China
 
 [![Email](https://img.shields.io/badge/bishromer@outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:bishromer@outlook.com)
@@ -15,9 +15,7 @@
 
 ## About
 
-I develop **no-reference quality assessment** methods for remote sensing and video — systems that measure image degradation without needing a pristine reference. My work is built around Multivariate Gaussian (MVG) statistical models that capture the natural statistics of high-quality imagery and detect how fusion or compression breaks those patterns.
-
-Currently finishing my MSc at NPU (expected Mar 2026), advised by Prof. Xu Li. I hold a **🏆 Best Paper Award** from ISCTech 2025 and a **Presidential Scholarship** (full MSc funding).
+I am a researcher and engineer specializing in signal processing, computer vision, and machine learning. My academic background bridges electrical engineering and information communication systems. I focus on developing robust algorithms for image quality assessment, object detection, and super-resolution.My technical stack centers on Python and MATLAB for building and validating complex mathematical models and deep learning architectures. I have practical experience optimizing frameworks for real-time performance and designing novel statistical frameworks for complex imagery analysis.
 
 ---
 
