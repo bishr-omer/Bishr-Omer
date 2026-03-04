@@ -15,7 +15,7 @@
 
 ## About
 
-I am a researcher and engineer specializing in signal processing, computer vision, and machine learning. My academic background bridges electrical engineering and information communication systems. I focus on developing robust algorithms for image quality assessment, object detection, and super-resolution.My technical stack centers on Python and MATLAB for building and validating complex mathematical models and deep learning architectures. I have practical experience optimizing frameworks for real-time performance and designing novel statistical frameworks for complex imagery analysis.
+I am a researcher and engineer specializing in signal processing, computer vision, and machine learning. My academic background bridges electrical engineering and information communication systems. I focus on developing robust algorithms for image quality assessment, object detection, and super-resolution. My technical stack centers on Python and MATLAB for building and validating  mathematical models and deep learning architectures. I have practical experience optimizing frameworks for real-time performance and designing novel statistical frameworks for complex imagery analysis.
 
 ---
 
@@ -25,9 +25,9 @@ Three complementary no-reference quality metrics built on a unified MVG framewor
 
 | | Repo | What it measures | Stack |
 |---|---|---|---|
-| 📡 | [**MVG-SDI**](https://github.com/bishromer/MVG-SDI) | **Spectral** distortion in pansharpened images | MATLAB · Benford FDD + Color Moments |
-| 🔍 | [**MVG-Spa**](https://github.com/bishromer/MVG-Spa) | **Spatial** distortion — blur, blocking, ghosting | MATLAB · Log-Gabor + LBP + Edge |
-| 🎬 | [**MVG-VQA**](https://github.com/bishromer/MVG-VQA) | **Video** quality — compression, flicker, motion | Python · Spatial + Temporal + XGBoost |
+| 📡 | [**MVG-SDI**](https://github.com/Bishr-Omer/mvg-spectral-distortion-index) | **Spectral** distortion in pansharpened images | MATLAB · Benford FDD + Color Moments |
+| 🔍 | [**MVG-Spa**](https://github.com/Bishr-Omer/mvg-spatial-distortion-index) | **Spatial** distortion — blur, blocking, ghosting | MATLAB · Log-Gabor + LBP + Edge |
+| 🎬 | [**MVG-VQA**](https://github.com/Bishr-Omer/mvg-xgboost-video-quality-assessment) | **Video** quality — compression, flicker, motion | Python · Spatial + Temporal + XGBoost |
 
 All three share the same core idea: fit an MVG model to features from a reference signal, then measure how far a distorted signal deviates using the Mahalanobis distance.
 
@@ -43,9 +43,9 @@ All three share the same core idea: fit an MVG model to features from a referenc
 
 ## 🛠️ Skills
 
-`Python` `MATLAB` `C/C++` · `OpenCV` `PyTorch` `XGBoost` `scikit-learn` · `Signal Processing` `Computer Vision` `Remote Sensing`
+`Python` `MATLAB` · `OpenCV` `PyTorch` `XGBoost` `scikit-learn` · `Signal Processing` `Computer Vision` `Remote Sensing`
 
-🗣️ Arabic · Fulfulde · English · Chinese (HSK 4)
+🗣️ Arabic · Fulfulde · English · Chinese 
 
 ---
 
