@@ -4,7 +4,6 @@
 ### MSc Researcher · Northwestern Polytechnical University, Xi'an, China
 
 [![Email](https://img.shields.io/badge/bishromer@mail.nwpu.edu.cn-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:bishromer@mail.nwpu.edu.cn)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0711--6685-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0711-6685)
 [![Sensors Paper](https://img.shields.io/badge/DOI-10.3390%2Fs26031002-blue?style=flat-square)](https://doi.org/10.3390/s26031002)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bishr--omer-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bishr-omer-818b89190)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-CsN306gAAAAJ-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=CsN306gAAAAJ&view_op=list_works&sortby=title)
