@@ -1,6 +1,6 @@
 <div align="center">
 
-# Bishr Omer A. Adam
+# Bishr Omer
 ### MSc Researcher · Northwestern Polytechnical University, Xi'an, China
 
 [![Email](https://img.shields.io/badge/Email-bishromer@mail.nwpu.edu.cn-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:bishromer@mail.nwpu.edu.cn)
