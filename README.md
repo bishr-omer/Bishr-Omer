@@ -20,15 +20,16 @@ I am a researcher and engineer specializing in signal processing, computer visio
 
 ---
 
-## 🛰️ Research — The MVG Quality Assessment Suite
+## 🛰️ Research — Image & Video Quality Assessment
 
-Three complementary no-reference quality metrics built on a unified MVG framework:
+Classical NSS methods and multimodal deep learning for no-reference quality assessment:
 
 | | Repo | What it measures | Stack |
 |---|---|---|---|
 | 📡 | [**MVG-SDI**](https://github.com/Bishr-Omer/mvg-spectral-distortion-index) | **Spectral** distortion in pansharpened images | MATLAB · Benford FDD + Color Moments |
 | 🔍 | [**MVG-Spa**](https://github.com/Bishr-Omer/mvg-spatial-distortion-index) | **Spatial** distortion — blur, blocking, ghosting | MATLAB · Log-Gabor + LBP + Edge |
 | 🎬 | [**MVG-VQA**](https://github.com/Bishr-Omer/mvg-xgboost-video-quality-assessment) | **Video** quality — compression, flicker, motion | Python · Spatial + Temporal + XGBoost |
+| 🤖 | [**Multimodal-BIQA**](https://github.com/bishr-omer/multimodal-biqa) | **Blind IQA** — fusing NSS + CLIP + LLaVA hidden states | Python · SROCC 0.87 on KonIQ-10k |
 
 All three share the same core idea: fit an MVG model to features from a reference signal, then measure how far a distorted signal deviates using the Mahalanobis distance.
 
