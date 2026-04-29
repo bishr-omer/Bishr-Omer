@@ -20,7 +20,7 @@ I am a researcher and engineer specializing in signal processing, computer visio
 
 ---
 
-## 🛰️ Research — Image & Video Quality Assessment
+## 🛰️ Research-Image & Video Quality Assessment
 
 Classical NSS methods and multimodal deep learning for no-reference quality assessment:
 
