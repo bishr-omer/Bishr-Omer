@@ -43,10 +43,6 @@ Extending the MVG framework from 2D image quality to 3D structural forensics:
 |---|---|---|
 | [**MCSF-3DGS**](https://github.com/bishr-omer/MCSF-3DGS) | No-reference structural quality assessment and artifact detection directly in 3DGS `.ply` primitives via per-primitive Mahalanobis anomaly scores and pairwise covariance consistency scoring | Python · XGBoost · SRCC 0.835 |
 
-Key contributions:
-- **Equation 3**: Per-primitive anomaly score $A_k$ via Mahalanobis distance on 3D covariance descriptors
-- **Equation 4**: Pairwise consistency score $C_{kj}$ detecting structural collapse between adjacent primitives
-- 98 MVG features extracted per `.ply` file, validated on the 3DGS-QA benchmark (225 scenes, 15 objects)
 
 ---
 
