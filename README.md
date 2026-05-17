@@ -16,22 +16,37 @@
 
 ## About
 
-I am a researcher and engineer specializing in signal processing, computer vision, and machine learning. My academic background bridges electrical engineering and information communication systems. I focus on developing robust algorithms for image quality assessment, object detection, and super-resolution. My technical stack centers on Python and MATLAB for building and validating  mathematical models and deep learning architectures. I have practical experience optimizing frameworks for real-time performance and designing novel statistical frameworks for complex imagery analysis.
+I am a researcher and engineer specializing in signal processing, computer vision, and machine learning. My academic background bridges electrical engineering and information communication systems. I focus on developing robust algorithms for image quality assessment, object detection, and super-resolution. My technical stack centers on Python and MATLAB for building and validating mathematical models and deep learning architectures. I have practical experience optimizing frameworks for real-time performance and designing novel statistical frameworks for complex imagery analysis.
 
 ---
 
-## 🛰️ Research-Image & Video Quality Assessment
+## 🛰️ Research: Image & Video Quality Assessment
 
 Classical NSS methods and multimodal deep learning for no-reference quality assessment:
 
-| Repo | What it measures | Stack |
+| Repo | Summary | Stack |
 |---|---|---|
-| [**MVG-SDI**](https://github.com/Bishr-Omer/mvg-spectral-distortion-index) | **Spectral** distortion in pansharpened images | MATLAB · Benford FDD + Color Moments |
-| [**MVG-Spa**](https://github.com/Bishr-Omer/mvg-spatial-distortion-index) | **Spatial** distortion - blur, blocking, ghosting | MATLAB · Log-Gabor + LBP + Edge |
-| [**MVG-VQA**](https://github.com/Bishr-Omer/mvg-xgboost-video-quality-assessment) | **Video** quality - compression, flicker, motion | Python · Spatial + Temporal + XGBoost |
-| [**Multimodal-BIQA**](https://github.com/bishr-omer/multimodal-biqa) | **Blind IQA** - fusing NSS + CLIP + LLaVA hidden states | Python · SROCC 0.87 on KonIQ-10k |
+| [**MVG-SDI**](https://github.com/Bishr-Omer/mvg-spectral-distortion-index) | No-reference spectral distortion index for pansharpened satellite images | MATLAB · Benford FDD + Color Moments |
+| [**MVG-Spa**](https://github.com/Bishr-Omer/mvg-spatial-distortion-index) | No-reference spatial distortion index for blur, blocking, and ghosting artifacts | MATLAB · Log-Gabor + LBP + Edge |
+| [**MVG-VQA**](https://github.com/Bishr-Omer/mvg-xgboost-video-quality-assessment) | No-reference video quality assessment for compression, flicker, and motion distortion | Python · Spatial + Temporal + XGBoost |
+| [**Multimodal-BIQA**](https://github.com/bishr-omer/multimodal-biqa) | Blind IQA by fusing NSS features, CLIP embeddings, and LLaVA hidden states | Python · SRCC 0.87 on KonIQ-10k |
 
-All three share the same core idea: fit an MVG model to features from a reference signal, then measure how far a distorted signal deviates using the Mahalanobis distance.
+All four share the same core idea: fit an MVG model to features from a reference signal, then measure how far a distorted signal deviates using the Mahalanobis distance.
+
+---
+
+## 🔬 Research: 3D Gaussian Splatting Forensics
+
+Extending the MVG framework from 2D image quality to 3D structural forensics:
+
+| Repo | Summary | Stack |
+|---|---|---|
+| [**MCSF-3DGS**](https://github.com/bishr-omer/MCSF-3DGS) | No-reference structural quality assessment and artifact detection directly in 3DGS `.ply` primitives via per-primitive Mahalanobis anomaly scores and pairwise covariance consistency scoring | Python · XGBoost · SRCC 0.835 |
+
+Key contributions:
+- **Equation 3**: Per-primitive anomaly score $A_k$ via Mahalanobis distance on 3D covariance descriptors
+- **Equation 4**: Pairwise consistency score $C_{kj}$ detecting structural collapse between adjacent primitives
+- 98 MVG features extracted per `.ply` file, validated on the 3DGS-QA benchmark (225 scenes, 15 objects)
 
 ---
 
@@ -47,7 +62,7 @@ All three share the same core idea: fit an MVG model to features from a referenc
 
 `Python` `MATLAB` · `OpenCV` `PyTorch` `XGBoost` `scikit-learn` · `Signal Processing` `Computer Vision` `Remote Sensing`
 
-🗣️ Arabic · Fulfulde · English · Chinese 
+🗣️ Arabic · Fulfulde · English · Chinese
 
 ---
 
